@@ -1,0 +1,30 @@
+/* Tự làm header, footer */
+body {
+    width: 80%;
+    /* căn giữa */
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+}
+/* LEFT */
+.left {
+    width: 80%;
+}
+.left h2 {
+    color: #047289;
+}
+.row {
+    display: flex;
+}
+.item {
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid #414343;
+}
+
+/* RIGHT */
+.right {
+    width: 20%;
+    background-color: #414343;
+}

@@ -1,0 +1,61 @@
+.vmenu {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color: lightgray;
+}
+
+.vmenu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.vmenu li:hover {
+    /* Đổi màu nền khi di chuột vào */
+    background-color: orange;
+}
+/* MENU NGANG */
+.hmenu {
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+}
+.hmenu li {
+    /* display: inline-block; */
+    list-style-type: none;
+    padding: 15px;
+    margin-right: 20px;
+}
+.hmenu li:hover {
+    background-color: pink;
+}
+/* MENU CON */
+.smenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+}
+.smenu li {
+    /* định vị vị trí tương đối, linh động */
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+}
+.sub-menu {
+    /* ẩn sub-menu */
+    display: none;
+    /* Xác định vị trí tuyệt đối */
+    position: absolute;
+    left: 0;
+    /* Đẩy nội dung xuống dưới item chính */
+    top: 100%;
+    border: 1px solid #000;
+}
+.smenu li:hover .sub-menu {
+    /* hiển thị sub-menu khi được hover */
+    display: block;
+}

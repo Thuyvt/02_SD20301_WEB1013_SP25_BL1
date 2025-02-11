@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            /* disc: danh sách, circle: chấm rỗng, square: chấm dạng vuông, none: không hiển thị */
+            list-style-type: square;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+        Danh sách không thứ tự
+    </h2>
+    <ul>
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+    </ul>
+    <h2>Danh sách có thứ tự</h2>
+    <!-- type: thay đổi số thứ tự bắt đầu hiển thị -->
+    <ol type="A">
+        <li>Phần 1</li>
+        <li>Phần 2</li>
+        <li>Phần 3</li>
+    </ol>
+    <h2>Danh sách định nghĩa</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dt>Ngôn ngữ đánh dấu siêu vân bản</dt>
+        <dt>CSS</dt>
+        <dt>Ngôn ngữ định dạng kiểu cho HTML</dt>
+    </dl>
+    <hr>
+    <h2>MENU ĐỨNG</h2>
+    <ul class="vmenu">
+        <li>Trang chủ</li>
+        <li>Giới thiệu</li>
+        <li>Dịch vụ</li>
+        <li>Liên hệ</li>
+    </ul>
+    <hr>
+    <h2>MENU NGANG</h2>
+    <ul class="hmenu">
+        <li>Trang chủ</li>
+        <li>Giới thiệu</li>
+        <li>Dịch vụ</li>
+        <li>Liên hệ</li>
+    </ul>
+    <h2>MENU CÓ SUB_MENU</h2>
+    <ul class="smenu">
+        <li>Trang chủ</li>
+        <li>Giới thiệu
+            <ul class="sub-menu">
+                <li>Giới thiệu chung</li>
+                <li>Thành tựu đạt được</li>
+            </ul>
+        </li>
+        <li>Dịch vụ</li>
+        <li>Liên hệ</li>
+    </ul>
+</body>
+</html>

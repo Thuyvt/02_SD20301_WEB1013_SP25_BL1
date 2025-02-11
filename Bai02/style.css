@@ -1,0 +1,25 @@
+h2 {
+    /* thuộc tính văn bản: căn chỉnh ra giữa */
+    text-align: center;
+    color: orange;
+}
+
+#tieu-de {
+    /* tt văn bản: bóng nhòe */
+    text-shadow: 0px 0px 5px rgb(0, 106, 255);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tieu-de-2 {
+    /* tt văn bản: bóng lệch */
+    text-shadow: 5px -10px 5px orange;
+    /* tt văn bản: tạo gạch chân */
+    text-decoration: underline;
+    font-size: 20px;
+    color: #b909c9;
+}
+
+.tieu-de-3 {
+
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma;
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #066179;
+}
+.logo {
+    text-align: center;
+    margin: 15px 0;
+}
+.menu {
+    list-style: none;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+}
+.menu li {
+    margin-left: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #066179;
+    font-size: 26px;
+    /* font-weight: bold; */
+}
+/* Hover qua li gạch chân cho thẻ a */
+.menu li:hover a {
+    text-decoration: underline;
+}
+.main {
+    background-color: #066179;
+    padding: 15px 30px;
+}
+.item {
+    margin-bottom: 30px;
+    display: flex;
+}
+.item-info {
+    margin-left: 20px;
+    color: white;
+}
+.item-info h2 {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
