@@ -1,0 +1,41 @@
+* {
+    /* reset css mặc định của trình duyệt */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    border: 1px solid #cccccc;
+    /* padding trên dưới trái phải: 20px */
+    padding: 20px;
+    /* bo viền cong 5px */
+    border-radius: 5px;
+}
+label {
+    /* Biến thẻ inline -> block */
+    display: block; 
+    /* cách bên dưới: 5px */
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+button {
+    /* padding trên/dưới: 10px,
+     trái/phải: 15px */
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    /* Tạo hiệu ứng chỉ tay vào nút */
+    cursor: pointer;
+}
+button:hover {
+    background-color: orange;
+}
