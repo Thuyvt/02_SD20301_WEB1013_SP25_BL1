@@ -20,6 +20,52 @@
         <!-- Nút bấm -->
         <button type="submit">Đăng nhập</button>
     </form>
-    
+    <hr>
+    <h2>ĐĂNG KÝ</h2>
+    <form action="" method="POST">
+        <label>Họ và tên:</label>
+        <input type="text" required>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" class="email" required>
+
+        <label for="gender">Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="1" checked>
+        <span>Nam</span>
+        <input type="radio" id="female" name="gender" value="2">
+        <span>Nữ</span>
+
+        <label for="address">Địa chỉ:</label>
+        <select name="address">
+            <option value="">--- Lựa chọn -----</option>
+            <option value="1">Hà Nội</option>
+            <option value="2" selected>Hải Phòng</option>
+        </select>
+
+        <label for="hobbies">Sở thích:</label>
+        <input type="checkbox" name="hobbies" value="reading">
+        <span>Đọc sách</span>
+        <input type="checkbox" name="hobbies" value="traveling">
+        <span>Du lịch</span><br>
+
+        <label for="">Ngày sinh</label>
+        <!-- datetime, datetime-local -->
+        <input type="date" disabled>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+
+    <h2>Tìm kiếm</h2>
+    <form action="">
+        <label for="search">Tìm kiếm:</label>
+        <input type="text" placeholder="Nhập thông tin địa chỉ, họ và tên...">
+        <button type="submit">Tìm kiếm</button>
+    </form>
+    <h2>Tải file</h2>
+    <form action="" enctype="multipart/form-data">
+        <label for="file">Chọn tệp:</label>
+        <input type="file"> <br>
+        <button type="submit">Tải lên</button>
+    </form>
 </body>
 </html>
